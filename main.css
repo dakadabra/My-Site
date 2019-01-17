@@ -1,12 +1,14 @@
-.socialMedia {
-    padding: 10px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #DCECFE;
+    background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
+    background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
+    background-attachment: fixed;
 }
+
 
 .portrait {
     size: 30%;
@@ -21,13 +23,19 @@ body {
     font-weight: 400;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: #DCECFE;
-    background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
-    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
-    background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
-    background-attachment: fixed;
+div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+div.socialMedia {
+    width: 5%;
+    height: 5%;
 }
