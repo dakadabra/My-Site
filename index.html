@@ -18,6 +18,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+  
+    <!-- CSS Styles -->
+    <link href="css/styles.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
@@ -124,114 +127,143 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Projects</h2>
-          Some projects I've worked on, click on the images to try them out!
+          Some projects I've worked on!
         </div>
       </div>
 
-      <table style="width:100%">
-        <tr>
-          <td align="center">
-            <a href="https://dakadabra.github.io/Optimo/" target="_blank">
-                <img src="img/gifs/Optimo.gif" alt="Optimo" style="width:90%">
-            </a>
-          </td>
-          <td align="center">
-            <img src="img/gifs/BitbyBit.gif" alt="BitbyBit" style="width:80%">
-          </td>
-          <td align="center">
-            <a href="Khazzam_David_report_final_technical_work-term_report.pdf" target="_blank">
-                <img src="img/report.jpg" alt="WorkTermReport" style="width:100%">
-            </a>
-          </td>
-        <tr>
-          <td>
-            <ul>
-                <li>Won Best Pitch at StarterHacks 2019, a Major League hackathon with over 500 participants</li>
-                <li>Collaborated on Git to create a web app that analyzes and determines a user’s vision with high degree of accuracy</li>
-                <li>Implemented voice recognition software using Web Speech API in addition to HTML, JavaScript, and CSS to allow a website to process and respond to a user’s input,
-                    <br/>as well as dynamically adjusting to varying screen-sizes</li>
-                <li>Incorporated accurate optometric research to improve the algorithm’s correctness</li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li>Won 10,000$ worth of mentorship and support provided by the Centre for Innovation at Algonquin College, a prize awarded at the Hacking Health Ottawa Hackathon</li>
-              <li>Designed an app to help recovering patients track their fitness, as well as to connect with other patients</li>
-              <li>Used HTML, CSS, React and Node.js to build the app, and used a Fitbit API to fetch the data</li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li>Received 97% on my work-term report covering forms of data cleaning and visualization.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td align="center">
+<main class="main-area">
+  
+  <div class="centered">
+
+      <div class="cards">
+          
+        <article class="card">
+          <a href="https://dakadabra.github.io/Optimo/" target="_blank">
+          <picture class="thumbnail">
+                <img src="img/gifs/Optimo.gif" alt="Optimo" class="card-img">
+              </picture>
+              <div class="card-content">
+                <h2>Optimo  -  StarterHacks 2019</h2>
+                <ul>
+                  <li>Won Best Pitch at StarterHacks 2019, a Major League hackathon with over 500 participants</li>
+                  <li>Collaborated on Git to create a web app that analyzes and determines a user’s vision with high degree of accuracy</li>
+                  <li>Implemented voice recognition software using Web Speech API in addition to HTML, JavaScript, and CSS to allow a website to process and respond to a user’s input,
+                      <br/>as well as dynamically adjusting to varying screen-sizes</li>
+                  <li>Incorporated accurate optometric research to improve the algorithm’s correctness</li>
+                </ul>
+              </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+          
+        <article class="card">
+            <picture class="thumbnail">
+              <img src="img/gifs/BitbyBit.gif" alt="BitbyBit" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>Bit by Bit  -  Hacking Health Ottawa 2019</h2>
+                <ul>
+                  <li>Won 10,000$ worth of mentorship and support provided by the Centre for Innovation at Algonquin College, a prize awarded at the Hacking Health Ottawa Hackathon</li>
+                  <li>Designed an app to help recovering patients track their fitness, as well as to connect with other patients</li>
+                  <li>Used HTML, CSS, React and Node.js to build the app, and used a Fitbit API to fetch the data</li>
+                </ul>
+            </div><!-- .card-content -->
+        </article><!-- .card -->
+          
+        <article class="card">
+          <a href="Khazzam_David_report_final_technical_work-term_report.pdf" target="_blank">
+            <picture class="thumbnail">
+              <img src="img/report.jpg" alt="WorkTermReport" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>Work Term Report</h2>
+                <p>Received 97% on my work-term report covering forms of data cleaning and visualization.</p>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+          
+        <article class="card">
             <a href="http://floranorthamerica.org/property_work/color_armature/arm_col_data/visualize.html" target="_blank">
-                <img src="img/gifs/flora_bar.gif" alt="Flora Bar Charts" style="width:100%">
-            </a>
-          </td>
-          <td align="center">
+            <picture class="thumbnail">
+                <img src="img/gifs/flora_bar.gif" alt="Flora Bar Charts" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>Bar Chart Visualization</h2>
+                <p>Visualizations to see how colour and armature relate to each other in botanical species</p>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+          
+        <article class="card">
             <a href="https://dakadabra.shinyapps.io/shiny_arules/" target="_blank">
-                <img src="img/gifs/flora_plot.gif" alt="Flora Plots" style="width:100%">
-            </a>
-          </td>
-          <td align="center">
+            <picture class="thumbnail">
+                <img src="img/gifs/flora_plot.gif" alt="Flora Plots" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>Plot Vizualizations</h2>
+                <ul>
+                  <li>Used Machine Learning and Data mining to investigate the correlation between species' properties.</li>
+                  <li>Use R to create visualizations</li>
+                </ul>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+          
+        <article class="card">
             <a href="https://dakadabra.github.io/Resumabuilders/mainPage.html" target="_blank">
-                <img src="img/gifs/Resumabuilder.gif" alt="Resumabuilder" style="width:100%">
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li>Visualizations to see how colour and armature relate to each other in botanical species</li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li>Used Machine Learning and Data mining to investigate the correlation between species' properties.</li>
-              <li>Use R to create visualizations</li>
-            </ul>
-          </td>
-          <td>
-            <ul>
-              <li>Designed and Implemented a custom algorithm to determine the effectiveness of your resume</li>
-              <li>Used HTML, Javascript and CSS for the design, as well as MongoDB for the data server</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td align="center">
+            <picture class="thumbnail">
+                <img src="img/gifs/Resumabuilder.gif" alt="Resumabuilder" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>Resumabuilder  -  cuHacking 2020</h2>
+                <ul>
+                  <li>Designed and Implemented a custom algorithm to determine the effectiveness of your resume</li>
+                  <li>Used HTML, Javascript and CSS for the design, as well as MongoDB for the data server</li>
+                </ul>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+          
+        <article class="card">
             <a href="https://mindspace.azurewebsites.net/" target="_blank">
-                <img src="img/gifs/MindSpace.gif" alt="Mind Space" style="width:100%">
-            </a>
-          </td>
-            <td align="center">
+            <picture class="thumbnail">
+                <img src="img/gifs/MindSpace.gif" alt="Mind Space" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>MindSpace  -  conuHacks 2020</h2>
+                <p>Used Sutterstock's API to create a custom journal</p>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+          
+        <article class="card">
               <a href="https://github.com/dakadabra/trEcho" target="_blank">
-                  <img src="img/trEcho.jpg" alt="Mind Space" style="width:100%">
-              </a>
-            </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li>Used Sutterstock's API to create a custom journal</li>
-            </ul>
-          </td>
-            <td>
-              <ul>
-                <li>Designed and integrated custom skills using AWS Lambda for Amazon Echo</li>
-                  <li>Built an algorithm using a Google Map API, as well as latitude and longitudinal calculations, to provide a 94% effective estimate of apackage’s location</li>
-                  <li>Employed algorithm to cache package’s location, drastically reducing stress of over 30 million requests on the delivery system per day</li>
-                  <li>Won Wolfram Award for a top 20 finish out of 400+ participants</li>
-              </ul>
-            </td>
-        </tr>
-      </table>
-    </div>
-  </section>
+            <picture class="thumbnail">
+                  <img src="img/trEcho.jpg" alt="Mind Space" class="card-img">
+            </picture>
+            <div class="card-content">
+                <h2>trEcho  - uOttaHacks 2020</h2>
+                <ul>
+                  <li>Designed and integrated custom skills using AWS Lambda for Amazon Echo</li>
+                    <li>Built an algorithm using a Google Map API, as well as latitude and longitudinal calculations, to provide a 94% effective estimate of apackage’s location</li>
+                    <li>Employed algorithm to cache package’s location, drastically reducing stress of over 30 million requests on the delivery system per day</li>
+                    <li>Won Wolfram Award for a top 20 finish out of 400+ participants</li>
+                </ul>
+            </div><!-- .card-content -->
+          </a>
+        </article><!-- .card -->
+
+      </section><!-- .cards -->
+     
+  </div><!-- .centered -->
+  
+</main>
+
+</section>
 
   <!-- Experience -->
   <section class="bg-light page-section" id="team">
