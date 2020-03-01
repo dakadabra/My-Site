@@ -1,6 +1,3 @@
-/* Import the google web fonts you want to use */
-
-
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
 
 /* Card Based Layout - Base styles */
@@ -40,20 +37,9 @@ h2 {
 }
 
 
-p, ul {
+p{
     margin-bottom: 1.5em;
     color: #898989;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li::before {
-    content: "•";
-    padding-right: 5px;
 }
 
 b,
@@ -175,6 +161,7 @@ img {
 
 .card-content {
 	padding: 1.4em;
+    color: #898989;
 }
 
 .card-content h2 {
@@ -185,6 +172,17 @@ img {
 
 .card-content p, ul {
 	font-size: 80%;
+}
+
+.card-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-content li::before {
+    content: "•";
+    padding-right: 5px;
 }
 
 /* Flexbox stuff */
