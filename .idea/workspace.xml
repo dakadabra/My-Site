@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a052ea5-4500-41df-be09-8ac159484e84" name="Default Changelist" comment="" />
+    <list default="true" id="3a052ea5-4500-41df-be09-8ac159484e84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/contact_me.php" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +19,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-704">
+            <state relative-caret-position="161">
               <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
@@ -65,17 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My Site" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -123,6 +116,7 @@
       <workItem from="1552233622053" duration="3349000" />
       <workItem from="1568497381459" duration="307000" />
       <workItem from="1568654584973" duration="538000" />
+      <workItem from="1583086264415" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="added css">
       <created>1547521273097</created>
@@ -156,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32654000" />
+    <option name="totallyTimeSpent" value="32656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1351" height="688" extended-state="0" />
@@ -209,7 +203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
+        <state relative-caret-position="161">
           <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
